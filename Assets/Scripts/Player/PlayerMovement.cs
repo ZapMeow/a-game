@@ -162,6 +162,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(wallCheck.position, wallCheckRadius);
+            //
         }
     }
 }
